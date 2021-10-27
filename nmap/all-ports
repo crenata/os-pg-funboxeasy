@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Mon Oct 25 18:16:14 2021 as: nmap -v -p- -oN nmap/all-ports 192.168.171.111
+Increasing send delay for 192.168.171.111 from 0 to 5 due to 84 out of 279 dropped probes since last increase.
+Nmap scan report for 192.168.171.111
+Host is up (0.25s latency).
+Not shown: 65532 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+33060/tcp open  mysqlx
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Oct 25 18:24:37 2021 -- 1 IP address (1 host up) scanned in 502.99 seconds
